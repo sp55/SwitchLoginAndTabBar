@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847601511CB4D19200A60EA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847601501CB4D19200A60EA6 /* main.m */; };
+		847601541CB4D19200A60EA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847601531CB4D19200A60EA6 /* AppDelegate.m */; };
+		847601571CB4D19200A60EA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847601561CB4D19200A60EA6 /* ViewController.m */; };
+		8476015C1CB4D19200A60EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8476015B1CB4D19200A60EA6 /* Assets.xcassets */; };
+		8476015F1CB4D19200A60EA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8476015D1CB4D19200A60EA6 /* LaunchScreen.storyboard */; };
+		8476016A1CB4D19200A60EA6 /* SwitchLoginAndTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847601691CB4D19200A60EA6 /* SwitchLoginAndTabBarTests.m */; };
+		847601751CB4D19300A60EA6 /* SwitchLoginAndTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847601741CB4D19300A60EA6 /* SwitchLoginAndTabBarUITests.m */; };
+		847601841CB4D20B00A60EA6 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847601831CB4D20B00A60EA6 /* TabBarController.m */; };
+		847601871CB4D21700A60EA6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847601861CB4D21700A60EA6 /* FirstViewController.m */; };
+		8476018A1CB4D21E00A60EA6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847601891CB4D21E00A60EA6 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847601661CB4D19200A60EA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847601441CB4D19200A60EA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8476014B1CB4D19200A60EA6;
+			remoteInfo = SwitchLoginAndTabBar;
+		};
+		847601711CB4D19200A60EA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847601441CB4D19200A60EA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8476014B1CB4D19200A60EA6;
+			remoteInfo = SwitchLoginAndTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8476014C1CB4D19200A60EA6 /* SwitchLoginAndTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchLoginAndTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847601501CB4D19200A60EA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847601521CB4D19200A60EA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		847601531CB4D19200A60EA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		847601551CB4D19200A60EA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		847601561CB4D19200A60EA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8476015B1CB4D19200A60EA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8476015E1CB4D19200A60EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847601601CB4D19200A60EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847601651CB4D19200A60EA6 /* SwitchLoginAndTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchLoginAndTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847601691CB4D19200A60EA6 /* SwitchLoginAndTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchLoginAndTabBarTests.m; sourceTree = "<group>"; };
+		8476016B1CB4D19200A60EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847601701CB4D19200A60EA6 /* SwitchLoginAndTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchLoginAndTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847601741CB4D19300A60EA6 /* SwitchLoginAndTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchLoginAndTabBarUITests.m; sourceTree = "<group>"; };
+		847601761CB4D19300A60EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847601821CB4D20B00A60EA6 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		847601831CB4D20B00A60EA6 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		847601851CB4D21700A60EA6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		847601861CB4D21700A60EA6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		847601881CB4D21E00A60EA6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		847601891CB4D21E00A60EA6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847601491CB4D19200A60EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847601621CB4D19200A60EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8476016D1CB4D19200A60EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847601431CB4D19200A60EA6 = {
+			isa = PBXGroup;
+			children = (
+				8476014E1CB4D19200A60EA6 /* SwitchLoginAndTabBar */,
+				847601681CB4D19200A60EA6 /* SwitchLoginAndTabBarTests */,
+				847601731CB4D19200A60EA6 /* SwitchLoginAndTabBarUITests */,
+				8476014D1CB4D19200A60EA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8476014D1CB4D19200A60EA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8476014C1CB4D19200A60EA6 /* SwitchLoginAndTabBar.app */,
+				847601651CB4D19200A60EA6 /* SwitchLoginAndTabBarTests.xctest */,
+				847601701CB4D19200A60EA6 /* SwitchLoginAndTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8476014E1CB4D19200A60EA6 /* SwitchLoginAndTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				847601521CB4D19200A60EA6 /* AppDelegate.h */,
+				847601531CB4D19200A60EA6 /* AppDelegate.m */,
+				847601551CB4D19200A60EA6 /* ViewController.h */,
+				847601561CB4D19200A60EA6 /* ViewController.m */,
+				847601821CB4D20B00A60EA6 /* TabBarController.h */,
+				847601831CB4D20B00A60EA6 /* TabBarController.m */,
+				847601851CB4D21700A60EA6 /* FirstViewController.h */,
+				847601861CB4D21700A60EA6 /* FirstViewController.m */,
+				847601881CB4D21E00A60EA6 /* SecondViewController.h */,
+				847601891CB4D21E00A60EA6 /* SecondViewController.m */,
+				8476015B1CB4D19200A60EA6 /* Assets.xcassets */,
+				8476015D1CB4D19200A60EA6 /* LaunchScreen.storyboard */,
+				847601601CB4D19200A60EA6 /* Info.plist */,
+				8476014F1CB4D19200A60EA6 /* Supporting Files */,
+			);
+			path = SwitchLoginAndTabBar;
+			sourceTree = "<group>";
+		};
+		8476014F1CB4D19200A60EA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847601501CB4D19200A60EA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847601681CB4D19200A60EA6 /* SwitchLoginAndTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				847601691CB4D19200A60EA6 /* SwitchLoginAndTabBarTests.m */,
+				8476016B1CB4D19200A60EA6 /* Info.plist */,
+			);
+			path = SwitchLoginAndTabBarTests;
+			sourceTree = "<group>";
+		};
+		847601731CB4D19200A60EA6 /* SwitchLoginAndTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				847601741CB4D19300A60EA6 /* SwitchLoginAndTabBarUITests.m */,
+				847601761CB4D19300A60EA6 /* Info.plist */,
+			);
+			path = SwitchLoginAndTabBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8476014B1CB4D19200A60EA6 /* SwitchLoginAndTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847601791CB4D19300A60EA6 /* Build configuration list for PBXNativeTarget "SwitchLoginAndTabBar" */;
+			buildPhases = (
+				847601481CB4D19200A60EA6 /* Sources */,
+				847601491CB4D19200A60EA6 /* Frameworks */,
+				8476014A1CB4D19200A60EA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchLoginAndTabBar;
+			productName = SwitchLoginAndTabBar;
+			productReference = 8476014C1CB4D19200A60EA6 /* SwitchLoginAndTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847601641CB4D19200A60EA6 /* SwitchLoginAndTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8476017C1CB4D19300A60EA6 /* Build configuration list for PBXNativeTarget "SwitchLoginAndTabBarTests" */;
+			buildPhases = (
+				847601611CB4D19200A60EA6 /* Sources */,
+				847601621CB4D19200A60EA6 /* Frameworks */,
+				847601631CB4D19200A60EA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847601671CB4D19200A60EA6 /* PBXTargetDependency */,
+			);
+			name = SwitchLoginAndTabBarTests;
+			productName = SwitchLoginAndTabBarTests;
+			productReference = 847601651CB4D19200A60EA6 /* SwitchLoginAndTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8476016F1CB4D19200A60EA6 /* SwitchLoginAndTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8476017F1CB4D19300A60EA6 /* Build configuration list for PBXNativeTarget "SwitchLoginAndTabBarUITests" */;
+			buildPhases = (
+				8476016C1CB4D19200A60EA6 /* Sources */,
+				8476016D1CB4D19200A60EA6 /* Frameworks */,
+				8476016E1CB4D19200A60EA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847601721CB4D19200A60EA6 /* PBXTargetDependency */,
+			);
+			name = SwitchLoginAndTabBarUITests;
+			productName = SwitchLoginAndTabBarUITests;
+			productReference = 847601701CB4D19200A60EA6 /* SwitchLoginAndTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847601441CB4D19200A60EA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AlezJi;
+				TargetAttributes = {
+					8476014B1CB4D19200A60EA6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					847601641CB4D19200A60EA6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8476014B1CB4D19200A60EA6;
+					};
+					8476016F1CB4D19200A60EA6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8476014B1CB4D19200A60EA6;
+					};
+				};
+			};
+			buildConfigurationList = 847601471CB4D19200A60EA6 /* Build configuration list for PBXProject "SwitchLoginAndTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847601431CB4D19200A60EA6;
+			productRefGroup = 8476014D1CB4D19200A60EA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8476014B1CB4D19200A60EA6 /* SwitchLoginAndTabBar */,
+				847601641CB4D19200A60EA6 /* SwitchLoginAndTabBarTests */,
+				8476016F1CB4D19200A60EA6 /* SwitchLoginAndTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8476014A1CB4D19200A60EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8476015F1CB4D19200A60EA6 /* LaunchScreen.storyboard in Resources */,
+				8476015C1CB4D19200A60EA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847601631CB4D19200A60EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8476016E1CB4D19200A60EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847601481CB4D19200A60EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8476018A1CB4D21E00A60EA6 /* SecondViewController.m in Sources */,
+				847601571CB4D19200A60EA6 /* ViewController.m in Sources */,
+				847601841CB4D20B00A60EA6 /* TabBarController.m in Sources */,
+				847601871CB4D21700A60EA6 /* FirstViewController.m in Sources */,
+				847601541CB4D19200A60EA6 /* AppDelegate.m in Sources */,
+				847601511CB4D19200A60EA6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847601611CB4D19200A60EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8476016A1CB4D19200A60EA6 /* SwitchLoginAndTabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8476016C1CB4D19200A60EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847601751CB4D19300A60EA6 /* SwitchLoginAndTabBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847601671CB4D19200A60EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8476014B1CB4D19200A60EA6 /* SwitchLoginAndTabBar */;
+			targetProxy = 847601661CB4D19200A60EA6 /* PBXContainerItemProxy */;
+		};
+		847601721CB4D19200A60EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8476014B1CB4D19200A60EA6 /* SwitchLoginAndTabBar */;
+			targetProxy = 847601711CB4D19200A60EA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8476015D1CB4D19200A60EA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8476015E1CB4D19200A60EA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847601771CB4D19300A60EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		847601781CB4D19300A60EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8476017A1CB4D19300A60EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchLoginAndTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlezJi.SwitchLoginAndTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8476017B1CB4D19300A60EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchLoginAndTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlezJi.SwitchLoginAndTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8476017D1CB4D19300A60EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchLoginAndTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlezJi.SwitchLoginAndTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchLoginAndTabBar.app/SwitchLoginAndTabBar";
+			};
+			name = Debug;
+		};
+		8476017E1CB4D19300A60EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchLoginAndTabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlezJi.SwitchLoginAndTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchLoginAndTabBar.app/SwitchLoginAndTabBar";
+			};
+			name = Release;
+		};
+		847601801CB4D19300A60EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwitchLoginAndTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlezJi.SwitchLoginAndTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwitchLoginAndTabBar;
+			};
+			name = Debug;
+		};
+		847601811CB4D19300A60EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwitchLoginAndTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlezJi.SwitchLoginAndTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwitchLoginAndTabBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847601471CB4D19200A60EA6 /* Build configuration list for PBXProject "SwitchLoginAndTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847601771CB4D19300A60EA6 /* Debug */,
+				847601781CB4D19300A60EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847601791CB4D19300A60EA6 /* Build configuration list for PBXNativeTarget "SwitchLoginAndTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8476017A1CB4D19300A60EA6 /* Debug */,
+				8476017B1CB4D19300A60EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8476017C1CB4D19300A60EA6 /* Build configuration list for PBXNativeTarget "SwitchLoginAndTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8476017D1CB4D19300A60EA6 /* Debug */,
+				8476017E1CB4D19300A60EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8476017F1CB4D19300A60EA6 /* Build configuration list for PBXNativeTarget "SwitchLoginAndTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847601801CB4D19300A60EA6 /* Debug */,
+				847601811CB4D19300A60EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847601441CB4D19200A60EA6 /* Project object */;
+}
